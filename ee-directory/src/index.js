@@ -1,15 +1,19 @@
+// src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';  // Use `react-dom/client` for React 18+
 import App from './App';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme/theme';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+// Create a root using the new `createRoot` method from ReactDOM
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Render the app using the `root.render()` method
+root.render(
   <ThemeProvider theme={theme}>
     <App />
-  </ThemeProvider>,
-  document.getElementById('root')
+  </ThemeProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

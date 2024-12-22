@@ -9,10 +9,13 @@ const theme = createTheme({
     secondary: {
       main: '#dc004e', // Red
     },
+    background: {
+      default: '#f0f0f0', // Set default background color to light gray
+    },
   },
   typography: {
     fontFamily: 'Roboto, Arial, sans-serif',
   },
 });
 
-export default theme; // Correct default export
+export default theme;
