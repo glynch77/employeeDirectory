@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/employeeDirectory/static/js/main.6b5a4a2e.js",
+    "static/js/488.f8e7168f.chunk.js": "/employeeDirectory/static/js/488.f8e7168f.chunk.js",
+    "static/media/Employee-placeholder (2).jpg": "/employeeDirectory/static/media/Employee-placeholder (2).b7667be1a996f684466e.jpg",
+    "index.html": "/employeeDirectory/index.html",
+    "main.6b5a4a2e.js.map": "/employeeDirectory/static/js/main.6b5a4a2e.js.map",
+    "488.f8e7168f.chunk.js.map": "/employeeDirectory/static/js/488.f8e7168f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6b5a4a2e.js"
+  ]
+}

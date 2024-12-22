@@ -1,0 +1,61 @@
+# Node.js dependencies
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Local environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+/.pnp
+.pnp.js
+.cache
+/.parcel-cache
+/.eslintcache
+/.turbo
+coverage/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Testing
+/coverage
+.jest
+
+# Miscellaneous
+*.lock
+*.bak
+*.tmp
+
+# Ignore generated files
+*.out
+*.log
+
+# React-specific files
+node_modules/
+build/
+public/*.cache
+public/*.js.map
+public/*.js.LICENSE.txt
+
+# Material-UI caching files (if any)
+.mui-cache
