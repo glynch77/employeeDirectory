@@ -15,11 +15,15 @@
     "selenium-webdriver": "^4.27.0",
     "web-vitals": "^4.2.4"
   },
+  "homepage": "http://localhost:3000/employeeDirectory",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +45,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.1.0"
+    "@testing-library/react": "^16.1.0",
+    "gh-pages": "^6.2.0"
   }
 }
